@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MVC-Get-POST/1.0.0": {
+        "runtime": {
+          "MVC-Get-POST.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MVC-Get-POST/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
