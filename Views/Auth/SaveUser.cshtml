@@ -8,29 +8,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
 </head>
-
 <body>
-
     <form method="post" action="/Auth/SaveUser">
 
-
+        @if (Model != null)
+        {
+            @if (Model.IsOk)
+            {
+                <div class="alert alert-primary"  role="alert">
+                    Başarılı bir şekilde kaydedildi!!
+                </div>
+            }
+        }
         <div class="mb-3">
             <label for="formGroupExampleInput" class="form-label">Ad</label>
             <input name="Name" type="text" class="form-control" id="formGroupExampleInput" placeholder="Ad giriniz">
         </div>
         <div class="mb-3">
             <label for="formGroupExampleInput2" class="form-label">Email</label>
-            <input name="Email" type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email giriniz">
+            <input name="Email" type="text" class="form-control" id="formGroupExampleInput2"
+                placeholder="Email giriniz">
         </div>
-         <div class="mb-3">
+        <div class="mb-3">
             <label for="formGroupExampleInput2" class="form-label">Şifre</label>
-            <input name="Password" type="text" class="form-control" id="formGroupExampleInput2" placeholder="Şifre Giriniz">
+            <input name="Password" type="text" class="form-control" id="formGroupExampleInput2"
+                placeholder="Şifre Giriniz">
         </div>
 
         <input class="btn btn-primary" type="submit" value="Kaydet">
-
-
     </form>
 </body>
 

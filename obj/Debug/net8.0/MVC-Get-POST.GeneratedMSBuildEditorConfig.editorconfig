@@ -18,8 +18,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/emrahelis/MVC-Get-POST
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/emrahelis/MVC-Get-POST/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/emrahelis/MVC-Get-POST/Views/Auth/SaveUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aC9TYXZlVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emrahelis/MVC-Get-POST/Views/Auth/Welcome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aC9XZWxjb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/emrahelis/MVC-Get-POST/Views/Home/Index.cshtml]

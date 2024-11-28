@@ -10,5 +10,6 @@ public class SaveUserViewModel{
     public string Email { get; set; }
 
     public string Password{ get; set; }
+    public bool IsOk    { get; set; }
 
 }
